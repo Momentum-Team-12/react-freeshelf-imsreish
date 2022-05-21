@@ -22,8 +22,14 @@ function App() {
                 <div>
                   <p>URL: <a href={book.coverImageUrl}>{book.coverImageUrl}</a></p>
                 </div>
-                <p>Publisher: {book.publisher}</p>
-                <p>Date Published: {book.publicationDate}</p>
+                if ({book.publisher})
+                return {
+                  <p>Publisher: {book.publisher}</p>
+                }
+                if ({book.publicationDate} !== null)
+                return {
+                  <p>Date Published: {book.publicationDate}</p>
+                }
                 <p>Full Description:<br></br><br></br>
                   {book.detailedDescription}</p>
               </div>
