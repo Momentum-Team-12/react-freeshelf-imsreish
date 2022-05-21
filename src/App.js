@@ -17,21 +17,20 @@ function App() {
               <p>{book.shortDescription}</p>
             </div>
             <div className="longDesc">
-              <p>Wrap the below data in a dropdown:</p>
               <div className="dropdown">
-                <div>
-                  <p>URL: <a href={book.coverImageUrl}>{book.coverImageUrl}</a></p>
-                </div>
-                if ({book.publisher})
-                return {
-                  <p>Publisher: {book.publisher}</p>
-                }
-                if ({book.publicationDate} !== null)
-                return {
-                  <p>Date Published: {book.publicationDate}</p>
-                }
-                <p>Full Description:<br></br><br></br>
-                  {book.detailedDescription}</p>
+                <details>
+                  {/* <summary>
+                  </summary> */}
+                  <div>
+                    <p>URL: <a href={book.coverImageUrl}>{book.coverImageUrl}</a></p>
+                  </div>
+                  if ({book.publicationDate} !== null)
+                  return {
+                    <p>Date Published: {book.publicationDate}</p>
+                  }
+                  <p>Full Description:<br></br><br></br>
+                    {book.detailedDescription}</p>
+                </details>
               </div>
             </div>
           </div>
