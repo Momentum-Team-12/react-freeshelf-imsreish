@@ -1,11 +1,11 @@
 # Changes & Project Progress
 
 ## **Still left to do**
-*[ ] break up elements into separate components (outside of `app` component)
+- [ ] break up elements into separate components (outside of `app` component)
 
-*[ ] use aria attribute
+- [ ] use aria attribute
 
-*[ ] all my styling
+- [ ] all my styling
 
 
 ## **Issues**
