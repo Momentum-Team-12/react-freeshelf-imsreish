@@ -3,6 +3,8 @@
 ## **Still left to do**
 - [ ] break up elements into separate components (outside of `app` component)
 
+- [ ] use state properly
+
 - [ ] use aria attribute
 
 - [ ] all my styling
