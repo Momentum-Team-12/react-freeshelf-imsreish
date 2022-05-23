@@ -11,17 +11,16 @@
 
 
 ## **Issues**
-+ can't get elements to conditionally render
-```js
-if ({book.publicationDate} !== null)
-    return {
-        <p>Date Published: {book.publicationDate}</p>
-    }
-```
++ css stuff
++ secondary div size not rendering properly
++ flex not working in 'buttons' div as anticipated
 + aria attribute???
 
 
 ## **Changelog**
+Date: 2022-05-23 Time: 09:07
+- styling, conditional rendering, dropdown, etc
+
 Date: 2022-05-21 Time: 23:04
 - organized changelog & indicated current state of project
 

@@ -3,23 +3,44 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  margin-left: 6%;
+  position: relative;
+  top: -34vh;
 }
 
 .eachBookBlur {
   display: flex;
   position: relative;
   justify-content: center;
-  border: 3px solid black;
   border-radius: 2vw;
-  height: 30%;
+  height: 30vh;
   margin-top: 2%;
   margin-bottom: 2%;
   margin-left: 4%;
   margin-right: 4%;
+  filter: blur(15px);
 }
 
 * {
   font-family: WorkSans;
+  color: navy;
+}
+
+.detailButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.publisher {
+  border: 0.5px solid navy;
+}
+
+.pubDate {
+  border: 0.5px solid navy;
+}
+
+.pubUrl {
+  border: 0.5px solid navy;
 }
 
 img {
@@ -29,6 +50,7 @@ img {
 
 .bookTitle {
   font-family: YoungSerif;
+  font-weight: 900;
 }
 
 .allDesc {
