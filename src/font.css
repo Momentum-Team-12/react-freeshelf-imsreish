@@ -1,0 +1,12 @@
+/* File: font.css */
+@font-face {
+    font-family: 'YoungSerif';
+    src: local('YoungSerif-Regular'),
+        url('./fonts/YoungSerif-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: local('WorkSans-Bold'),
+        url('./fonts/WorkSans-Bold.woff') format('woff');
+}
